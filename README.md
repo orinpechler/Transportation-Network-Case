@@ -29,10 +29,10 @@ Investments can be made to increase the available capacity for each modality sep
 made per 5 units up to a maximum capacity increase of 25. The investment costs differ per each modality.
 Let ki be the amount of times we invest into an additional 5 unit of modality i. Then total cost is calculated
 as follows:
-- **Truck:** `C_t(k_t) = 3 * k_t`  
-- **Airplane:** `C_a(k_a) = k_a^2`  
-- **Ship:** `C_s(k_s) = C_s(k_s-1) + k_s`, with `C_s(1) = 1`  
-- **Train:** `C_r(k_r) = 2^(k_r-1)`
+- **Truck:** $C_t(k_t) = 3 * k_t$
+- **Airplane:** $C_a(k_a) = k_a^2$  
+- **Ship:** $C_s(k_s) = C_s(k_s-1) + k_s$, with $C_s(1) = 1$  
+- **Train:** $C_r(k_r) = 2^(k_r-1)$
 
 Then, total investment is equal to:
 $$Total\ Investment = C_t(k_t) + C_a(k_a) + C_s(k_s) + C_r(k_r)$$
