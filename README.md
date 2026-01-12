@@ -177,3 +177,12 @@ Goal: Maximize **Score = 43*P - 1*E + 292*R**.
 - Reach: 10 regions  
 
 ---
+
+## Java Files
+Observe that the 3 files: ProofOfConcept.java, MinimumViableProduct.java, and MaximumScore.java, are the 3 files that solves each part respectively. 
+Each of these files uses the following objects:
+- City.java
+- Connection.java
+- Target.java
+- Network.java
+- SteinerTreeProblem.java
