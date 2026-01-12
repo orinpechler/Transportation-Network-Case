@@ -1,0 +1,2 @@
+weights for R (reach), P (profit), E (emissions)
+292, 43, 1

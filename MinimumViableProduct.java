@@ -9,7 +9,7 @@ public class MinimumViableProduct {
 
         // Read in the cities contained in the file
         ArrayList<City> citiesList = new ArrayList<City>();
-        String filename1 = "cities.txt";
+        String filename1 = "data/cities.txt";
         try{
             citiesList = readCitiesFile(filename1);
         }
@@ -21,7 +21,7 @@ public class MinimumViableProduct {
 
         // Read in the connections contained in the file
         ArrayList<Connection> connectionsList = new ArrayList<Connection>();
-        String filename2 = "connections.txt";
+        String filename2 = "data/connections.txt";
         try{
             connectionsList = readConnectionsFile(filename2);
         }
@@ -31,7 +31,7 @@ public class MinimumViableProduct {
 
         // Read in the targets contained in the file
         ArrayList<Target> targetsList = new ArrayList<Target>();
-        String filename3 = "targets.txt";
+        String filename3 = "data/targets.txt";
         try{
             targetsList = readTargetsFile(filename3);
         }

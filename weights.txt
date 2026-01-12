@@ -1,7 +1,0 @@
-weights for R (reach), P (profit), E (emissions)
-team 1: 949, 72, 5
-team 2: 534, 69, 2
-team 3: 292, 43, 1
-team 4: 911, 41, 7
-team 5: 860, 66, 9
-team 6: 193, 45, 7
