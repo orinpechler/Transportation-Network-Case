@@ -186,3 +186,18 @@ Each of these files uses the following objects:
 - Target.java
 - Network.java
 - SteinerTreeProblem.java
+
+-- 
+
+## Text Files
+**cities.txt** contains cities, their geographical location and their region. This file contains five columns: city number, name, latitude, longitude and region number.
+> 1;Los Angeles;34,05;-118,25;1
+
+**connections.txt** contains the possible modalities that can be used between two cities. If some connection is not in the list, then there is no direct connection between the two cities. The file contains six columns: origin city number, destination city number, costs for transport per truck, costs for transport over sea, costs for transport by air and costs for transport via rail. If any cost is listed as 0, this modality is not available for said connection. The nonzero cost entries are listed in the number of travel units.
+> 1;2;2;3;0;4
+
+**player.txt** contains the budgets, in terms of transportation units, you have available for each modality. For each modality the maximum costs without additional investment you can spent on it via connections is given. The format is self-explanatory.
+> Truck;50
+
+**targets.txt** contains the combination of cities where a valuable connection can be made. This file contains three columns: origin city number, destination city number and monetary value (in millions of euros).
+> 2;11;3

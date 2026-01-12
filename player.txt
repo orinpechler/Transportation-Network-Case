@@ -1,0 +1,4 @@
+Truck;50
+Train;50
+Airplane;50
+Ship;50
